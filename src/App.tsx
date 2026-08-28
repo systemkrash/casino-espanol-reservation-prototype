@@ -293,7 +293,7 @@ function Booking() {
                 <UserOutlined />
                 <span>
                   <small>Member</small>
-                  <strong>Melvin Evangelista · CE-10482</strong>
+                  <strong>Demo Member · DEMO-0001</strong>
                 </span>
               </div>
             </div>
@@ -329,28 +329,28 @@ function Booking() {
 const rows = [
   {
     key: 1,
-    member: "Ana Delgado · CE-09118",
+    member: "Member A · DEMO-0101",
     facility: "Tennis · Court 2",
     schedule: "Aug 14, 8:00 AM",
     status: "Confirmed",
   },
   {
     key: 2,
-    member: "Miguel Lhuillier · CE-10403",
+    member: "Member B · DEMO-0102",
     facility: "Bowling · Lane 4",
     schedule: "Aug 14, 3:00 PM",
     status: "Confirmed",
   },
   {
     key: 3,
-    member: "Sofia Garcia · CE-08521",
+    member: "Member C · DEMO-0103",
     facility: "Badminton · Court 1",
     schedule: "Aug 15, 9:00 AM",
     status: "Pending",
   },
   {
     key: 4,
-    member: "Ramon Aboitiz · CE-07290",
+    member: "Member D · DEMO-0104",
     facility: "Pickleball · Court 2",
     schedule: "Aug 15, 4:00 PM",
     status: "Confirmed",
@@ -479,7 +479,7 @@ function Admin() {
               children: (
                 <>
                   <strong>Reservation confirmed</strong>
-                  <p>Ana Delgado · Tennis Court 2 · 8:00 AM</p>
+                  <p>Member A · Tennis Court 2 · 8:00 AM</p>
                 </>
               ),
             },
@@ -660,8 +660,8 @@ export default function Home() {
                 <button className="profile">
                   <Avatar icon={<UserOutlined />} />
                   <span>
-                    <strong>Melvin Evangelista</strong>
-                    <small>Member CE-10482</small>
+                    <strong>Demo Member</strong>
+                    <small>Member DEMO-0001</small>
                   </span>
                   <DownOutlined />
                 </button>
